@@ -1,12 +1,12 @@
 {
-  "name": "robsonvleite/phptips016",
-  "description": "MINIFICAÇÃO DE ARQUIVOS JS E CSS COM MINIFY",
+  "name": "hudyssonpontes/pagarme",
+  "description": "Consumo de API Pagar.me",
   "minimum-stability": "stable",
   "license": "MIT",
   "authors": [
     {
-      "name": "Robson V. Leite",
-      "email": "cursos@upinside.com.br"
+      "name": "Hudysson Pontes",
+      "email": "hudyssonpontes@protonmail.com"
     }
   ],
   "autoload": {
@@ -14,10 +14,11 @@
       "Source\\": "source/"
     },
     "files": [
-      "source/Minify.php"
+      "source/Config.php"
     ]
   },
   "require": {
-    "matthiasmullie/minify": "1.3.*"
+    "cofeecode/datalayer": "*",
+    "pagarme/pagarme-php": "4.0.*"
   }
 }
